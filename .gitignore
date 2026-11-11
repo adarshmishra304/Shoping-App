@@ -1,0 +1,125 @@
+# ------------------------------------------------------------------------------
+# Flutter & Dart Exclusions
+# ------------------------------------------------------------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/doc/api/
+
+# ------------------------------------------------------------------------------
+# Android Build Artifacts & Local Files
+# ------------------------------------------------------------------------------
+**/android/.gradle/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/app/.cxx/
+**/android/.cxx/
+**/android/captures/
+local.properties
+key.properties
+*.keystore
+*.jks
+*.apk
+*.aab
+
+# ------------------------------------------------------------------------------
+# iOS & macOS Build Artifacts
+# ------------------------------------------------------------------------------
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/.last_build_id
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/profile
+**/macOS/Pods/
+**/macOS/.symlinks/
+DerivedData/
+
+# ------------------------------------------------------------------------------
+# Desktop (Windows & Linux) Build Artifacts
+# ------------------------------------------------------------------------------
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/macos/flutter/ephemeral/
+
+# ------------------------------------------------------------------------------
+# IDEs, Editors & Tooling
+# ------------------------------------------------------------------------------
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.metadata
+.classpath
+.project
+.settings/
+
+# Sublime Text / Vim / Others
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------------------------
+# Operating System Files
+# ------------------------------------------------------------------------------
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# ------------------------------------------------------------------------------
+# Environment Variables & Secrets
+# ------------------------------------------------------------------------------
+.env
+.env.*
+*.secret
+
+# ------------------------------------------------------------------------------
+# Logs & Symbolication / Obfuscation
+# ------------------------------------------------------------------------------
+*.log
+*.tmp
+*.bak
+app.*.symbols
+app.*.map.json
+.history/
+.buildlog/
+
+# ------------------------------------------------------------------------------
+# Custom Project Exclusions
+# ------------------------------------------------------------------------------
+# Ignore image files from images folder
+assets/images/
+images/
